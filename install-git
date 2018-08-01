@@ -1,0 +1,9 @@
+#!/bin/bash
+aurman -S geany zenity
+mkdir ~/scripts
+mv commit ~/scripts
+mv rununity ~/scripts
+wget https://png.icons8.com/metro/1600/github.png
+cp ~/.bash_profile ~/.bash_profile.copy
+echo 'PATH="$PATH:$HOME/bin"' >> ~/.bash_profile
+echo 'alias pacman="aurman"'
