@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo mount -o rw /dev/sda3 /mnt/mint
