@@ -2,5 +2,7 @@
 cd $HOME/crime-time
 git add .
 message=$(zenity --entry --text "Enter commit message" --entry-text "Minor changes");
-git commit -m message
-git push origin master
+git commit -m $message
+username=$(zenity --entry --text "Enter your Github.com login" --entry-text "");
+password=$(zenity --entry --text "Enter your Github.com password" --entry-text "");
+push.sh $username $password

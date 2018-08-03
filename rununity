@@ -6,7 +6,7 @@ if [ $? == 0 ]; then
 else
 	output=$(zenity --error --text="Git pull returned an error. Probably a merge conflict" --title="Pull Error" --width=350 --height=150 --extra-button="Fix")
 	if [ $output == Fix ]; then
-		aaa=$(zenity --file-selection)
-		geany $aaa
+		aa=$(zenity --file-selection)
+		geany $aa
 	fi
 fi
