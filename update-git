@@ -1,0 +1,6 @@
+#!/bin/bash
+aurman -S geany zenity expect
+mv commit ~/scripts
+mv rununity ~/scripts
+mv rununity ~/scripts
+

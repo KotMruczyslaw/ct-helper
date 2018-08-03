@@ -1,7 +1,8 @@
 #!/bin/bash
-aurman -S geany zenity
+aurman -S geany zenity expect
 mkdir ~/scripts
 mv commit ~/scripts
+mv rununity ~/scripts
 mv rununity ~/scripts
 wget https://png.icons8.com/metro/1600/github.png
 cp ~/.bash_profile ~/.bash_profile.copy
